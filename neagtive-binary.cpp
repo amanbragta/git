@@ -5,7 +5,7 @@ int binaryToDecimal(int n)
 {
     int k=1, multiplier=1;
 
-    while(to_string(n).length()>=multiplier){			// to count the bits
+    while(to_string(n).length()>=multiplier){	 // to count the bits of n
         if(to_string(n).length()==multiplier){
             k=-1;
             n=n-(pow(10,to_string(n).length()-1));
